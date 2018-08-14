@@ -1,9 +1,15 @@
 {
   "name": "remarker",
-  "version": "1.8.1",
+  "version": "1.9.4",
   "description": "Remark cli",
   "main": "index.js",
   "bin": "index.js",
+  "files": [
+    "index.js",
+    "assets",
+    "vendor",
+    "layout.njk"
+  ],
   "scripts": {
     "lint": "standard",
     "test": "kocha test",
